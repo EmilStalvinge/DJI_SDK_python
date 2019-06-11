@@ -3,8 +3,8 @@ import grpc
 
 from google.protobuf import any_pb2 as google_dot_protobuf_dot_any__pb2
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-from proto import messages_pb2 as proto_dot_messages__pb2
-from proto.services import shell_pb2 as proto_dot_services_dot_shell__pb2
+from dmc.proto import messages_pb2 as proto_dot_messages__pb2
+from dmc.proto.services import shell_pb2 as proto_dot_services_dot_shell__pb2
 
 
 class ShellStub(object):

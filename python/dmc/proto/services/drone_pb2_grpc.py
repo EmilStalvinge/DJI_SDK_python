@@ -2,7 +2,7 @@
 import grpc
 
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-from proto.services import drone_pb2 as proto_dot_services_dot_drone__pb2
+from dmc.proto.services import drone_pb2 as proto_dot_services_dot_drone__pb2
 
 
 class DroneStub(object):

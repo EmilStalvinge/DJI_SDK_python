@@ -12,8 +12,8 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from proto.action import action_pb2 as proto_dot_action_dot_action__pb2
-from proto.status import status_pb2 as proto_dot_status_dot_status__pb2
+from dmc.proto.action import action_pb2 as proto_dot_action_dot_action__pb2
+from dmc.proto.status import status_pb2 as proto_dot_status_dot_status__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(

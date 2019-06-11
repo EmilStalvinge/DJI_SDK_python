@@ -2,8 +2,8 @@
 import grpc
 
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-from proto import messages_pb2 as proto_dot_messages__pb2
-from proto.services import dronecache_pb2 as proto_dot_services_dot_dronecache__pb2
+from dmc.proto import messages_pb2 as proto_dot_messages__pb2
+from dmc.proto.services import dronecache_pb2 as proto_dot_services_dot_dronecache__pb2
 
 
 class DroneCacheStub(object):

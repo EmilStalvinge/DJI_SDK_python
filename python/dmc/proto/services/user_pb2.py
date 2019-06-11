@@ -13,11 +13,11 @@ _sym_db = _symbol_database.Default()
 
 
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-from proto import messages_pb2 as proto_dot_messages__pb2
-from proto.mission import mission_pb2 as proto_dot_mission_dot_mission__pb2
-from proto.action import action_pb2 as proto_dot_action_dot_action__pb2
-from proto.control import control_pb2 as proto_dot_control_dot_control__pb2
-from proto.launcher import launcher_pb2 as proto_dot_launcher_dot_launcher__pb2
+from dmc.proto import messages_pb2 as proto_dot_messages__pb2
+from dmc.proto.mission import mission_pb2 as proto_dot_mission_dot_mission__pb2
+from dmc.proto.action import action_pb2 as proto_dot_action_dot_action__pb2
+from dmc.proto.control import control_pb2 as proto_dot_control_dot_control__pb2
+from dmc.proto.launcher import launcher_pb2 as proto_dot_launcher_dot_launcher__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(

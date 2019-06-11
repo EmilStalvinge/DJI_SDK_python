@@ -12,9 +12,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from proto.cache import cache_pb2 as proto_dot_cache_dot_cache__pb2
+from dmc.proto.cache import cache_pb2 as proto_dot_cache_dot_cache__pb2
 from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
-from proto import messages_pb2 as proto_dot_messages__pb2
+from dmc.proto import messages_pb2 as proto_dot_messages__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
