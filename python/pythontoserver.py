@@ -51,6 +51,7 @@ class pythontoserver_class():
         print("Main End")
 
     def on_set_mission(self, msg):
-        print("dronemissioncontrol")
+        wps = msg.waypoints
+        print(wps[2].lat)
 
 
