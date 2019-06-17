@@ -47,9 +47,10 @@ class pythontoserver_class():
         t = threading.Thread(target = self.spin)
         t.daemon = True # helpful if you want it to die automatically
         t.start()
+        self.client.on("set_mission", self.on_set_mission)
         print("Main End")
 
-    def on_set_mission(msg):
+    def on_set_mission(self, msg):
         print("dronemissioncontrol")
-    client.on("set_mission", on_set_mission)
+
 
